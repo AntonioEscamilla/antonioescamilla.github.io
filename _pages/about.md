@@ -26,9 +26,9 @@ Education
   
 * BSc in Audio Engineering, 2008
 
-  <span style="font-size:4em;">Universidad de San Buenaventura - Bogotá</span>
+  <span style="font-size:9pt;">Universidad de San Buenaventura - Bogotá</span>
   
 * BSc in Electronic Engineering, 2005
 
-  <span style="font-size:4em;">Universidad Pontificia Bolivariana - Medellín</span>  
+  <span style="font-size:9pt;">Universidad Pontificia Bolivariana - Medellín</span>  
   
