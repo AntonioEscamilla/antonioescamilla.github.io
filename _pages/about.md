@@ -8,7 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a pre-doctoral researcher in the Computer Science, Multimedia, and Telecommunications Department at the Universitat Oberta de Catalunya ([UOC](https://uoc.edu). I am pursuing a Ph.D. in Network and Information Technologies working on Human-Computer Interaction, Design & Multimedia. I am an associate professor and faculty member in the Information and Communication Technologies Department at Universidad Pontificia Bolivariana ([UPB](https://upb.edu.co)). I hold an MS in Sound and Music Technologies from Universitat Pompeu Fabra, a BS in Audio Engineer, and a BS in Electrical Engineer. 
+
+My research interests are mainly, but not limited to:
+
+- Computer Vision
+- Human-Computer Interaction
+- Machine Learning
+- Digital Signal Processing
+- Music Information Retrieval
 
 A data-driven personal website
 ======
