@@ -21,10 +21,13 @@ Interests
 Education
 =====
 - MSc in Sound and Music Technologies, 2010
+  
   Universitat Pompeu Fabra - Barcelona
   
 - BSc in Audio Engineering, 2008
+  
   Universidad de San Buenaventura - Bogotá
   
 - BSc in Electronic Engineering, 2005
+  
   Universidad Pontificia Bolivariana - Medellín
