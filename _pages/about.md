@@ -22,13 +22,13 @@ Education
 =====
 * MSc in Sound and Music Technologies, 2010
 
-###### Universitat Pompeu Fabra - Barcelona
+  Universitat Pompeu Fabra - Barcelona
   
 * BSc in Audio Engineering, 2008
 
-<span style="font-size:4em;">Universidad de San Buenaventura - Bogotá</span>
+  <span style="font-size:4em;">Universidad de San Buenaventura - Bogotá</span>
   
 * BSc in Electronic Engineering, 2005
 
-<span style="font-size:4em;">Universidad Pontificia Bolivariana - Medellín</span>  
+  <span style="font-size:4em;">Universidad Pontificia Bolivariana - Medellín</span>  
   
