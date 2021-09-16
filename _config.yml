@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Antonio Escamilla"
   avatar           : "profile.png"
-  bio              : "Associate Professor at Universidad Pontificia Bolivariana, Ph.D. (candidate) Networks and Information Technologies"
-  location         : "Universitat Oberta Catalunya, España"
+  bio              : "Associate Professor at Universidad Pontificia Bolivariana, Ph.D. (candidate) Networks and Information Technologies at Universitat Oberta de Catalunya"
+  location         : "Barcelona, España"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com.co/citations?user=fuWJGmwAAAAJ&hl=en"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  "https://www.researchgate.net/profile/Antonio-Escamilla-3"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/AntonioEscamilla"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0002-5269-2112"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
