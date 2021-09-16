@@ -22,7 +22,7 @@ Education
 =====
 * MSc in Sound and Music Technologies, 2010
 
-######Universitat Pompeu Fabra - Barcelona
+###### Universitat Pompeu Fabra - Barcelona
   
 * BSc in Audio Engineering, 2008
 
