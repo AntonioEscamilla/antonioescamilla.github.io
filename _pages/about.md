@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a pre-doctoral researcher in the Computer Science, Multimedia, and Telecommunications Department at the Universitat Oberta de Catalunya ([UOC](https://uoc.edu). I am pursuing a Ph.D. in Network and Information Technologies working on Human-Computer Interaction, Design & Multimedia. I am an associate professor and faculty member in the Information and Communication Technologies Department at Universidad Pontificia Bolivariana ([UPB](https://upb.edu.co)). I hold an MS in Sound and Music Technologies from Universitat Pompeu Fabra, a BS in Audio Engineer, and a BS in Electrical Engineer. 
+I am a pre-doctoral researcher in the Computer Science, Multimedia, and Telecommunications Department at the Universitat Oberta de Catalunya ([UOC](https://uoc.edu)). I am pursuing a Ph.D. in Network and Information Technologies working on Human-Computer Interaction, Design & Multimedia. I am an associate professor and faculty member in the Information and Communication Technologies Department at Universidad Pontificia Bolivariana ([UPB](https://upb.edu.co)). I hold an MS in Sound and Music Technologies from Universitat Pompeu Fabra, a BS in Audio Engineer, and a BS in Electrical Engineer. 
 
 My research interests are mainly, but not limited to:
 
