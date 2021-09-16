@@ -8,12 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-I am a pre-doctoral researcher in the Computer Science, Multimedia, and Telecommunications Department at the Universitat Oberta de Catalunya ([UOC](https://uoc.edu)). I am pursuing a Ph.D. in Network and Information Technologies working on Human-Computer Interaction, Design & Multimedia. I am an associate professor and faculty member in the Information and Communication Technologies Department at Universidad Pontificia Bolivariana ([UPB](https://upb.edu.co)). I hold an MS in Sound and Music Technologies from Universitat Pompeu Fabra, a BS in Audio Engineer, and a BS in Electrical Engineer. 
+I am a pre-doctoral researcher in the Computer Science, Multimedia, and Telecommunications Department at the Universitat Oberta de Catalunya ([UOC](https://uoc.edu)). I am pursuing a Ph.D. in Network and Information Technologies working on Human-Computer Interaction, Design & Multimedia. I am an associate professor and faculty member in the Information and Communication Technologies Department at Universidad Pontificia Bolivariana ([UPB](https://upb.edu.co)). I hold an MS in Sound and Music Technologies from Universitat Pompeu Fabra, a BS in Audio Engineer, and a BS in Electrical Engineer. My research interests are mainly, but not limited to, digital signal processing, music information retrieval, machine learning, and human-computer interaction.
 
-My research interests are mainly, but not limited to:
+Interests
 ======
 - Human-Computer Interaction
 - Computer Vision
 - Machine Learning
 - Digital Signal Processing
 - Music Information Retrieval
+
+Education
+=====
+- MSc in Sound and Music Technologies, 2010
+  Universitat Pompeu Fabra - Barcelona
+  
+- BSc in Audio Engineering, 2008
+  Universidad de San Buenaventura - Bogotá
+  
+- BSc in Electronic Engineering, 2005
+  Universidad Pontificia Bolivariana - Medellín
