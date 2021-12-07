@@ -6,7 +6,7 @@ permalink: /teaching/2016-sound-design-teaching-3
 venue: "Universidad Pontificia Bolivariana, School of Engineering"
 date: 2016-02-01
 location: "Medellín, Colombia"
-excerpt: "The course addresses theoretical concepts of sound design and implements common workflows in the creation of sound content as an essential part of content development for digital formats/media. [Read more](https://antonioescamilla.github.io/teaching/2016-sound-design-teaching-3.md)"
+excerpt: "The course addresses theoretical concepts of sound design and implements common workflows in the creation of sound content as an essential part of content development for digital formats/media. [Read more](https://antonioescamilla.github.io/teaching/2016-sound-design-teaching-3)"
 ---
 
 The course addresses theoretical concepts of sound design and implements common workflows in the creation of sound content as an essential part of content development for digital formats / media. Walter Murch, responsible for the term “sound design”, proposes the following reflection that helps to dimension the relationship between design, technical production and the spectator.
