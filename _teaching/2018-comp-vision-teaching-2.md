@@ -6,6 +6,7 @@ permalink: /teaching/2018-comp-vision-teaching-2
 venue: "Universidad Pontificia Bolivariana, School of Engineering"
 date: 2018-02-01
 location: "Medellín, Colombia"
+excerpt: "Computer Vision undergraduate course at UPB. Program of Ingenieria en Diseño de Entretenimeinto Digital. [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-2)"
 ---
 
 ## Purpose of the course
