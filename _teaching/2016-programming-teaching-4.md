@@ -1,9 +1,9 @@
 ---
 title: "Creative Programming - Master in Digital Arts"
 collection: teaching
-type: "Postgraduate Course"
-permalink: /teaching/2016-programming-teaching-4
-venue: "ITM University, Faculty of Arts"
+type: "Graduate Course"
+permalink: /teaching/2016-programming-teaching-4/
+institution: "ITM University, Faculty of Arts"
 date: 2016-02-01
 location: "Medellín, Colombia"
 excerpt: "The Creative Programming course will provide an introduction to programming and code in the context of the Digital Arts M.A. program at ITM"
