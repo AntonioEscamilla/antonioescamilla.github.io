@@ -1,5 +1,5 @@
 ---
-title: "Creative Programming"
+title: "Creative Programming - Master in Digital Arts"
 collection: teaching
 type: "Postgraduate Course"
 permalink: /teaching/2016-programming-teaching-4
