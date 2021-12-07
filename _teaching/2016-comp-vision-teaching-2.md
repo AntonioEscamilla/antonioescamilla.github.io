@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 2"
+title: "Computer Vision"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate Course"
+permalink: /teaching/2016-comp-vision-teaching-2
+venue: "Universidad Pontificia Bolivariana, School of Engenieering"
+date: 2018-02-01
+location: "Medellín, Colombia"
 ---
