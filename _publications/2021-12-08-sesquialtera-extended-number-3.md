@@ -6,7 +6,7 @@ excerpt: 'Bambuco, one of the national rhythms of Colombia, is characterized by 
 date: 2021-12-08
 venue: 'Transactions of the International Society for Music Information Retrieval'
 paperurl: 'https://transactions.ismir.net/article/10.5334/tismir.118/'
-citation: 'Cano, E., Mora-Ángel, F., Gil, G.A.L., Zapata, J.R., Escamilla, A., Alzate, J.F. and Betancur, M (2021). &quot;Sesquialtera in the Colombian Bambuco: Perception and Estimation of Beat and Meter – Extended version.&quot; <i>Transactions of the International Society for Music Information Retrieval</i>.4(1), pp.248–262.'
+citation: 'Cano, E., Mora-Ángel, F., Gil, G.A.L., Zapata, J.R., Escamilla, A., Alzate, J.F. and Betancur, M (2021). &quot;Sesquialtera in the Colombian Bambuco: Perception and Estimation of Beat and Meter – Extended version.&quot; <i>Transactions of the International Society for Music Information Retrieval</i>. 4(1), pp.248–262.'
 ---
 
 **Abstract:**
