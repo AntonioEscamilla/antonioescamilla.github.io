@@ -11,49 +11,56 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Network & Information Technologies, Universitat Oberta de Catalunhya, 2023 (expected)
+* M.Sc. in Sound and Music Technologies, Universitat Pompeu Fabra, 2010
+* B.Sc. in Audio Engineering, Universidad San Buenaventura, 2008
+* B.Sc. in Electronic Engineering, Universidad Pontificia Bolivariana, 2005
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2016 - 2022: Full Professor
+  * Universidad Pontificia Bolivariana
+  * Duties included: Research and Teaching
+  * Faculty: Information and Comunication Technologies
+  * School: Enginieering
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2017 - 2019: Associate Professor
+  * Institución Universitaria ITM
+  * Duties included: Teaching in the Digital Arts master programme
+  * Faculty: Arts
+  
+* 2011 - 2015: Full Professor
+  * Universidad de San Buenaventura
+  * Duties included: Research and Teaching
+  * Programme: Audio Enginieering
+  * Faculty: Enginieering
+
+* 2011 - 2015: Associate Professor
+  * Institución Universitaria Bellas Artes
+  * Duties included: Teaching at undergraduate level
+  * Programme: Music
+  * Faculty: Arts
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Human-Computer Interaction
+* Computer Vision
+* Machine Learning
+* Digital Signal Processing
+* Music Information Retrieval
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+    
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Résumé
 ======
-* Currently signed in to 43 different slack teams
+Antonio Escamilla is a pre-doctoral researcher in the Computer Science, Multimedia and Telecommunications Department at the Universitat Oberta de Catalunya (UOC). He pursuits his PhD in Network and Information Technologies working on Human-Computer Interaction, Design & Multimedia. He is an associate professor and faculty member in the Information and Communication Technologies Department at Universidad Pontificia Bolivariana (UPB). He holds an MS in Sound and Music Technologies from Universitat Pompeu Fabra, a BS in Audio Engineer and a BS in Electrical Engineer. His research interests are mainly, but not limited to, digital signal processing, music information retrieval, machine learning and human computer interaction.
