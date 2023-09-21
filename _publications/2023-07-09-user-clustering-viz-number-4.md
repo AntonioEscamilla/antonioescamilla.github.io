@@ -2,7 +2,7 @@
 title: "User Clustering Visualization and Its Impact on Motion-Based Interaction Design"
 collection: publications
 permalink: /publication/2023-07-09-user-clustering-viz-number-4
-excerpt: 'Movement-based interaction design relies on sensor data analysis and higher-level feature extraction to represent human movement. However, challenges to effectively using movement data include building computational tools that allow exploring feature extraction technology as design material, and the need for visual representations that help designers better understand the contents of movement. This paper presents an approach for visualizing user clustering descriptors to enhance the practitioners’ ability to use human motion in interaction design.'  [Read more](https://antonioescamilla.github.io/publication/2023-07-09-user-clustering-viz-number-4)'
+excerpt: 'Movement-based interaction design relies on sensor data analysis and higher-level feature extraction to represent human movement. However, challenges to effectively using movement data include building computational tools that allow exploring feature extraction technology as design material, and the need for visual representations that help designers better understand the contents of movement. This paper presents an approach for visualizing user clustering descriptors to enhance the practitioners’ ability to use human motion in interaction design. [Read more](https://antonioescamilla.github.io/publication/2023-07-09-user-clustering-viz-number-4)'
 date: 2023-07-09
 venue: 'Part of the Lecture Notes in Computer Science book series (LNCS,volume 14011)'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-35596-7_4'
