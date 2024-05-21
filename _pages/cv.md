@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Network & Information Technologies, Universitat Oberta de Catalunhya, 2023 (expected)
+* Ph.D in Network & Information Technologies, Universitat Oberta de Catalunhya, 2023
 * M.Sc. in Sound and Music Technologies, Universitat Pompeu Fabra, 2010
 * B.Sc. in Audio Engineering, Universidad San Buenaventura, 2008
 * B.Sc. in Electronic Engineering, Universidad Pontificia Bolivariana, 2005
