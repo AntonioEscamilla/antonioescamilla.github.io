@@ -18,7 +18,7 @@ Education
 
 Work experience
 ======
-* 2016 - 2022: Full Professor
+* 2016 - : Full Professor
   * Universidad Pontificia Bolivariana
   * Duties included: Research and Teaching
   * Faculty: Information and Comunication Technologies
