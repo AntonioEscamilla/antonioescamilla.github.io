@@ -21,6 +21,9 @@ Interests
 
 Education
 =====
+* PhD in Network and Information Technologies, 2023  
+    <span style="font-size:9pt;">Universitat Oberta de Catalunya - Barcelona</span>
+    
 * MSc in Sound and Music Technologies, 2010  
     <span style="font-size:9pt;">Universitat Pompeu Fabra - Barcelona</span>
   
