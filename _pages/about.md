@@ -22,10 +22,14 @@ Interests
 Education
 =====
 <ul style="list-style-type: none;">
-  <li><i class="fas fa-graduation-cap"></i> PhD in Network and Information Technologies, 2023</li>
+  <li><i class="fas fa-graduation-cap"></i> Ph.D. in Network and Information Technologies, 2023</li>
       <span style="font-size:9pt;">Universitat Oberta de Catalunya - Barcelona</span>
-  <li><i class="fas fa-graduation-cap"></i> M.Sc. in Computer Science, University ABC, 2016</li>
-  <li><i class="fas fa-graduation-cap"></i> B.Sc. in Computer Science, University DEF, 2014</li>
+  <li><i class="fas fa-graduation-cap"></i> M.Sc. in Sound and Music Technologies, 2010</li>
+  <span style="font-size:9pt;">Universitat Pompeu Fabra - Barcelona</span>
+  <li><i class="fas fa-graduation-cap"></i> B.Sc. in Audio Engineering, 2008</li>
+  <span style="font-size:9pt;">Universidad de San Buenaventura - Bogotá</span>
+  <li><i class="fas fa-graduation-cap"></i> B.Sc. in Electronic Engineering, 2005</li>
+  <span style="font-size:9pt;">Universidad Pontificia Bolivariana - Medellín</span>
 </ul>
 
 Education
