@@ -12,7 +12,8 @@ I hold a Ph.D. in Network and Information Technologies from [Universitat Oberta 
 
 Interests
 ======
-- Human-Computer Interaction
+<i class="fa-solid fa-thumbtack"></i>
+<div>Human-Computer Interaction</div>
 - Artificial Intelligence (AI) and Human Experience
 - Computer Vision
 - Machine Learning
@@ -23,11 +24,9 @@ Education
 =====
 <ul style="list-style-type: none; padding-left: 0;">
   <li>
-      <i class="fas fa-graduation-cap"></i> 
-      <div style="display: inline-block; vertical-align: top;">
+      <i class="fas fa-graduation-cap"></i>
           <div>Ph.D. in Network and Information Technologies, 2023</div>
           <div style="font-size: 9pt;">Universitat Oberta de Catalunya - Barcelona</div>
-       </div>
   </li>
   <li>
        <i class="fas fa-graduation-cap"></i> 
@@ -51,18 +50,4 @@ Education
         </div>
     </li>
 </ul>
-
-Education
-=====
-* PhD in Network and Information Technologies, 2023  
-    <span style="font-size:9pt;">Universitat Oberta de Catalunya - Barcelona</span>
-    
-* MSc in Sound and Music Technologies, 2010  
-    <span style="font-size:9pt;">Universitat Pompeu Fabra - Barcelona</span>
-  
-* BSc in Audio Engineering, 2008  
-    <span style="font-size:9pt;">Universidad de San Buenaventura - Bogotá</span>
-  
-* BSc in Electronic Engineering, 2005  
-    <span style="font-size:9pt;">Universidad Pontificia Bolivariana - Medellín</span>  
   
