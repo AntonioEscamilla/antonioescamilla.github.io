@@ -6,6 +6,7 @@ permalink: /teaching/2018-comp-vision-teaching-5
 venue: "ITM University, Faculty of Arts"
 date: 2018 - 2019
 location: "Medellín, Colombia"
+excerpt: "The Computer Vision course will introduce students to the fascinating world of image analysis and object recognition within the context of the Digital Arts M.A. program at ITM. [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-5)"
 ---
 
 The Computer Vision course will introduce students to the fascinating world of image analysis and object recognition within the context of the Digital Arts M.A. program at ITM. This graduate course equips students with the skills to utilize computer vision techniques for creating interactive and visually compelling digital art. Students will learn to detect, monitor, and recognize objects in digital images, using these capabilities to enhance human-computer interaction and develop innovative art projects.
