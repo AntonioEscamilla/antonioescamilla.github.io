@@ -4,7 +4,7 @@ collection: teaching
 type: "Postgraduate Course"
 permalink: /teaching/2018-comp-vision-teaching-5
 venue: "ITM University, Faculty of Arts"
-date: 2018 - 2019
+date: 2018-02-01
 location: "Medellín, Colombia"
 excerpt: "The Computer Vision course will introduce students to the fascinating world of image analysis and object recognition within the context of the Digital Arts M.A. program at ITM. [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-5)"
 ---
