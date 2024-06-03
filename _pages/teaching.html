@@ -7,6 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
+## Postgraduate Courses
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  {% if post.type == "postgraduate" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
+
+## Undergraduate Courses
+{% for post in site.teaching reversed %}
+  {% if post.type == "undergraduate" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
