@@ -14,7 +14,7 @@ Interests
 ======
 <ul style="list-style-type: none; padding-left: 0;">
     <li>
-        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        <i class="fas fa-hashtag" style="margin-right: 10px;"></i>
         Human-Computer Interaction
     </li>
     <li>
