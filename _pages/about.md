@@ -14,7 +14,7 @@ Interests
 ======
 <ul style="list-style-type: none; padding-left: 0;">
   <li>
-      <i class="fa-solid fa-thumbtack"></i>
+      <i class="fa-solid fa-thumbtack" style="margin-right: 10px;></i>
       <div style="display: inline-block; vertical-align: top;">
           <div>Human-Computer Interaction</div>
       </div>
@@ -37,25 +37,25 @@ Education
             </div>
   </li>
   <li>
-       <i class="fas fa-graduation-cap"></i> 
-       <div style="display: inline-block; vertical-align: top;">
-           <div>M.Sc. in Sound and Music Technologies, 2010</div>
-           <div style="font-size: 9pt;">Universitat Pompeu Fabra - Barcelona</div>
-        </div>
-  </li>
-  <li>
-        <i class="fas fa-graduation-cap"></i> 
-        <div style="display: inline-block; vertical-align: top;">
-            <div>B.Sc. in Audio Engineering, 2008</div>
-            <div style="font-size: 9pt;">Universidad de San Buenaventura - Bogotá</div>
-        </div>
+      <i class="fas fa-graduation-cap" style="margin-right: 10px;"></i>
+            <div style="display: inline-block; vertical-align: top;">
+                <div>M.Sc. in Sound and Music Technologies, 2010</div>
+                <div style="font-size: 9pt;">Universitat Pompeu Fabra - Barcelona</div>
+            </div>
    </li>
    <li>
-        <i class="fas fa-graduation-cap"></i> 
-        <div style="display: inline-block; vertical-align: top;">
-             <div>B.Sc. in Electronic Engineering, 2005</div>
-             <div style="font-size: 9pt;">Universidad Pontificia Bolivariana - Medellín</div>
-        </div>
+       <i class="fas fa-graduation-cap" style="margin-right: 10px;"></i>
+            <div style="display: inline-block; vertical-align: top;">
+                <div>B.Sc. in Audio Engineering, 2008</div>
+                <div style="font-size: 9pt;">Universidad de San Buenaventura - Bogotá</div>
+            </div>
+    </li>
+    <li>
+        <i class="fas fa-graduation-cap" style="margin-right: 10px;"></i>
+            <div style="display: inline-block; vertical-align: top;">
+                <div>B.Sc. in Electronic Engineering, 2005</div>
+                <div style="font-size: 9pt;">Universidad Pontificia Bolivariana - Medellín</div>
+            </div>
     </li>
 </ul>
   
