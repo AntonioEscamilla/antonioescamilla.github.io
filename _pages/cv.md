@@ -67,14 +67,14 @@ Teaching
 <h2 style="font-size: 1.5em;">Postgraduate Courses</h2>
 {% for post in site.teaching reversed %}
   {% if post.type == "Postgraduate Course" %}
-    {% include archive-single.html %}
+    {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}
 
 <h2 style="font-size: 1.5em;">Undergraduate Courses</h2>
 {% for post in site.teaching reversed %}
   {% if post.type == "Undergraduate Course" %}
-    {% include archive-single.html %}
+    {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}
   
