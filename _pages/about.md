@@ -19,6 +19,13 @@ Interests
 - Digital Signal Processing
 - Music Information Retrieval
 
+<h2>Education</h2>
+<ul style="list-style-type: none;">
+  <li><i class="fas fa-graduation-cap"></i> Ph.D. in Computer Science, University XYZ, 2020</li>
+  <li><i class="fas fa-graduation-cap"></i> M.Sc. in Computer Science, University ABC, 2016</li>
+  <li><i class="fas fa-graduation-cap"></i> B.Sc. in Computer Science, University DEF, 2014</li>
+</ul>
+
 Education
 =====
 * PhD in Network and Information Technologies, 2023  
