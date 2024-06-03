@@ -21,7 +21,7 @@ Interests
 
 Education
 =====
-<ul style="list-style-type: none;">
+<ul style="list-style-type: none; padding-left: 0;">
   <li>
       <i class="fas fa-graduation-cap"></i> 
       <div style="display: inline-block; vertical-align: top;">
@@ -29,12 +29,27 @@ Education
           <div style="font-size: 9pt;">Universitat Oberta de Catalunya - Barcelona</div>
        </div>
   </li>
-  <li><i class="fas fa-graduation-cap"></i> M.Sc. in Sound and Music Technologies, 2010</li>
-  <span style="font-size:9pt;">Universitat Pompeu Fabra - Barcelona</span>
-  <li><i class="fas fa-graduation-cap"></i> B.Sc. in Audio Engineering, 2008</li>
-  <span style="font-size:9pt;">Universidad de San Buenaventura - Bogotá</span>
-  <li><i class="fas fa-graduation-cap"></i> B.Sc. in Electronic Engineering, 2005</li>
-  <span style="font-size:9pt;">Universidad Pontificia Bolivariana - Medellín</span>
+  <li>
+       <i class="fas fa-graduation-cap"></i> 
+       <div style="display: inline-block; vertical-align: top;">
+           <div>M.Sc. in Sound and Music Technologies, 2010</div>
+           <div style="font-size: 9pt;">Universitat Pompeu Fabra - Barcelona</div>
+        </div>
+  </li>
+  <li>
+        <i class="fas fa-graduation-cap"></i> 
+        <div style="display: inline-block; vertical-align: top;">
+            <div>B.Sc. in Audio Engineering, 2008</div>
+            <div style="font-size: 9pt;">Universidad de San Buenaventura - Bogotá</div>
+        </div>
+   </li>
+   <li>
+        <i class="fas fa-graduation-cap"></i> 
+        <div style="display: inline-block; vertical-align: top;">
+             <div>B.Sc. in Electronic Engineering, 2005</div>
+             <div style="font-size: 9pt;">Universidad Pontificia Bolivariana - Medellín</div>
+        </div>
+    </li>
 </ul>
 
 Education
