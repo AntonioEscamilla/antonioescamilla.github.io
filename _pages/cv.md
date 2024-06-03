@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Network & Information Technologies, Universitat Oberta de Catalunhya, 2023
+* Ph.D in Network & Information Technologies, Universitat Oberta de Catalunya, 2023
 * M.Sc. in Sound and Music Technologies, Universitat Pompeu Fabra, 2010
 * B.Sc. in Audio Engineering, Universidad San Buenaventura, 2008
 * B.Sc. in Electronic Engineering, Universidad Pontificia Bolivariana, 2005
@@ -21,7 +21,7 @@ Work experience
 * 2016 - : Full Professor
   * Universidad Pontificia Bolivariana
   * Duties included: Research and Teaching
-  * Faculty: Information and Comunication Technologies
+  * Faculty: Information and Communication Technologies
   * School: Enginieering
 
 * 2017 - 2019: Associate Professor
@@ -44,6 +44,7 @@ Work experience
 Skills
 ======
 * Human-Computer Interaction
+* Artificial Intelligence (AI) and Human Experience
 * Computer Vision
 * Machine Learning
 * Digital Signal Processing
