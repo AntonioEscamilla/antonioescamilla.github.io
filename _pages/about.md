@@ -22,7 +22,13 @@ Interests
 Education
 =====
 <ul style="list-style-type: none;">
-  <li><i class="fas fa-graduation-cap"></i> Ph.D. in Network and Information Technologies, 2023<br><span style="font-size:9pt;">Universitat Oberta de Catalunya - Barcelona</span></li>
+  <li>
+      <i class="fas fa-graduation-cap"></i> 
+      <div style="display: inline-block; vertical-align: top;">
+          <div>Ph.D. in Network and Information Technologies, 2023</div>
+          <div style="font-size: 9pt;">Universitat Oberta de Catalunya - Barcelona</div>
+       </div>
+  </li>
   <li><i class="fas fa-graduation-cap"></i> M.Sc. in Sound and Music Technologies, 2010</li>
   <span style="font-size:9pt;">Universitat Pompeu Fabra - Barcelona</span>
   <li><i class="fas fa-graduation-cap"></i> B.Sc. in Audio Engineering, 2008</li>
