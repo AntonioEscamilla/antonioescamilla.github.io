@@ -12,8 +12,14 @@ I hold a Ph.D. in Network and Information Technologies from [Universitat Oberta 
 
 Interests
 ======
-<i class="fa-solid fa-thumbtack"></i>
-<div>Human-Computer Interaction</div>
+<ul style="list-style-type: none; padding-left: 0;">
+  <li>
+      <i class="fa-solid fa-thumbtack"></i>
+      <div style="display: inline-block; vertical-align: top;">
+          <div>Human-Computer Interaction</div>
+      </div>
+  </li>
+</ul>
 - Artificial Intelligence (AI) and Human Experience
 - Computer Vision
 - Machine Learning
@@ -24,9 +30,11 @@ Education
 =====
 <ul style="list-style-type: none; padding-left: 0;">
   <li>
-      <i class="fas fa-graduation-cap"></i>
-          <div>Ph.D. in Network and Information Technologies, 2023</div>
-          <div style="font-size: 9pt;">Universitat Oberta de Catalunya - Barcelona</div>
+      <i class="fas fa-graduation-cap" style="margin-right: 10px;"></i>
+            <div style="display: inline-block; vertical-align: top;">
+                <div>Ph.D. in Network and Information Technologies, 2023</div>
+                <div style="font-size: 9pt;">Universitat Oberta de Catalunya - Barcelona</div>
+            </div>
   </li>
   <li>
        <i class="fas fa-graduation-cap"></i> 
