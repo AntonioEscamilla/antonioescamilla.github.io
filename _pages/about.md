@@ -13,18 +13,31 @@ I hold a Ph.D. in Network and Information Technologies from [Universitat Oberta 
 Interests
 ======
 <ul style="list-style-type: none; padding-left: 0;">
-  <li>
-      <i class="fa-solid fa-thumbtack" style="margin-right: 10px;></i>
-      <div style="display: inline-block; vertical-align: top;">
-          <div>Human-Computer Interaction</div>
-      </div>
-  </li>
+    <li>
+        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        Human-Computer Interaction
+    </li>
+    <li>
+        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        Artificial Intelligence (AI) and Human Experience
+    </li>
+    <li>
+        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        Computer Vision
+    </li>
+    <li>
+        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        Machine Learning
+    </li>
+    <li>
+        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        Digital Signal Processing
+    </li>
+    <li>
+        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        Music Information Retrieval
+    </li>
 </ul>
-- Artificial Intelligence (AI) and Human Experience
-- Computer Vision
-- Machine Learning
-- Digital Signal Processing
-- Music Information Retrieval
 
 Education
 =====
