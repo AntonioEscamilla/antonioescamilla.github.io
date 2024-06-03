@@ -9,14 +9,14 @@ author_profile: true
 
 ## Postgraduate Courses
 {% for post in site.teaching reversed %}
-  {% if post.type == "postgraduate" %}
+  {% if post.type == "Postgraduate Course" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 ## Undergraduate Courses
 {% for post in site.teaching reversed %}
-  {% if post.type == "undergraduate" %}
+  {% if post.type == "Undergraduate Course" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
