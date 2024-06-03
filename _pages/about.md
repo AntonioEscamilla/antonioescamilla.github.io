@@ -14,7 +14,7 @@ Interests
 ======
 <ul style="list-style-type: none; padding-left: 0;">
     <li>
-        <i class="fas fa-hashtag" style="margin-right: 10px;"></i>
+        <i class="fas fa-pen-nib" style="margin-right: 10px;"></i>
         Human-Computer Interaction
     </li>
     <li>
@@ -22,19 +22,19 @@ Interests
         Artificial Intelligence (AI) and Human Experience
     </li>
     <li>
-        <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>
+        <i class="fas fa-pen-nib" style="margin-right: 10px;"></i>
         Computer Vision
     </li>
     <li>
-        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        <i class="fas fa-pen-nib" style="margin-right: 10px;"></i>
         Machine Learning
     </li>
     <li>
-        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        <i class="fas fa-pen-nib" style="margin-right: 10px;"></i>
         Digital Signal Processing
     </li>
     <li>
-        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        <i class="fas fa-pen-nib" style="margin-right: 10px;"></i>
         Music Information Retrieval
     </li>
 </ul>
