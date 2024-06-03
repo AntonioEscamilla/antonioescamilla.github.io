@@ -18,11 +18,11 @@ Interests
         Human-Computer Interaction
     </li>
     <li>
-        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        <i class="fas fa-pen-nib" style="margin-right: 10px;"></i>
         Artificial Intelligence (AI) and Human Experience
     </li>
     <li>
-        <i class="fas fa-thumbtack" style="margin-right: 10px;"></i>
+        <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>
         Computer Vision
     </li>
     <li>
