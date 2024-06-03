@@ -1,7 +1,7 @@
 ---
 title: "Creative Programming - Master in Digital Arts"
 collection: teaching
-type: "Graduate Course"
+type: "Postgraduate Course"
 permalink: /teaching/2016-programming-teaching-4
 venue: "ITM University, Faculty of Arts"
 date: 2016-02-01
