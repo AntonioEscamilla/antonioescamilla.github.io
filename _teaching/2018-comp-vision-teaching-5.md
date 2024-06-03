@@ -4,7 +4,7 @@ collection: teaching
 type: "Postgraduate Course"
 permalink: /teaching/2018-comp-vision-teaching-5
 venue: "ITM University, Faculty of Arts"
-date: 2018-02-01
+date: 2018 - 2019
 location: "Medellín, Colombia"
 ---
 
