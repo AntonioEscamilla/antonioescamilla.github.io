@@ -18,3 +18,6 @@ Develop solutions to data analysis problems using computing tools to incorporate
 ## Learning Outcomes
 * Statistical and Analytical Competence: Apply statistical methodologies, techniques, and tools to support and enhance decision-making processes in various contexts.
 * Computational Problem-Solving: Develop and implement effective solutions for data analysis problems using advanced computing tools, integrating these solutions into comprehensive data processing systems.
+
+## Course Introduction Slides
+You can view the slides in Spanish [here](https://antonioescamilla.github.io/Curso-Inteligencia-Artificial/index.html).
