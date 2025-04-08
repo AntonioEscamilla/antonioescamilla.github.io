@@ -6,7 +6,7 @@ permalink: /teaching/2018-comp-vision-teaching-2
 venue: "Universidad Pontificia Bolivariana, School of Engineering"
 date: 2018-02-01
 location: "Medellín, Colombia"
-excerpt: "Computer Vision undergraduate course at UPB. Program of Ingenieria en Diseño de Entretenimiento Digital. [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-2)"
+excerpt: "Computer Vision undergraduate course at UPB. Program of Ingenieria en Diseño de Entretenimiento Digital. [Course site](https://foil-bamboo-097.notion.site/Visi-n-Artificial-83054a02d41e486a9c758431115bde89). [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-2)"
 ---
 
 ## Course Description
@@ -24,4 +24,4 @@ This project-based course is structured around developing computer vision applic
 
 Project-based work will allow students to delve deeper into topics such as basic image manipulation and operations, color segmentation, video processing and analysis, filtering techniques, and transformations. In addition, practical applications such as the use of ArUco markers for augmented reality, the implementation of hand and body detection models, and pose classification systems will be explored.
 
-This course is developed around a Notion page as its central axis. Access is open to anyone interested in the topic or the methodology.[Notion site](https://foil-bamboo-097.notion.site/Visi-n-Artificial-83054a02d41e486a9c758431115bde89).
+This course is developed around a Notion page as its central axis. Access is open to anyone interested in the topic or the methodology. [Notion site](https://foil-bamboo-097.notion.site/Visi-n-Artificial-83054a02d41e486a9c758431115bde89).
