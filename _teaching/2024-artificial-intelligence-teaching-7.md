@@ -6,7 +6,7 @@ permalink: /teaching/2024-artificial-intelligence-teaching-7
 venue: "Universidad Pontificia Bolivariana, School of Engineering"
 date: 2024-02-01
 location: "Medellín, Colombia"
-excerpt: "Artificial Intelligence undergraduate course at UPB. Programs of Ingenieria Informática and Ingeniería en Ciencia de Datos. [Introduction Slides](https://antonioescamilla.github.io/Curso-Inteligencia-Artificial/index.html)[Read more](https://antonioescamilla.github.io/teaching/2024-artificial-intelligence-teaching-7)"
+excerpt: "Artificial Intelligence undergraduate course at UPB. Programs of Ingenieria Informática and Ingeniería en Ciencia de Datos. [Introduction Slides](https://antonioescamilla.github.io/Curso-Inteligencia-Artificial/index.html) [Read more](https://antonioescamilla.github.io/teaching/2024-artificial-intelligence-teaching-7)"
 ---
 
 ## Description of the course
