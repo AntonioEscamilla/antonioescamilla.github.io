@@ -6,7 +6,7 @@ permalink: /teaching/2018-comp-vision-teaching-2
 venue: "Universidad Pontificia Bolivariana, School of Engineering"
 date: 2024-02-01
 location: "Medellín, Colombia"
-excerpt: "Computer Vision course in the Ingeniería en Diseño de Entretenimiento Digital program &mdash; approaching technical learning through a design thinking perspective to foster innovative, user-centered visual computing solutions. [Course site](https://foil-bamboo-097.notion.site/Visi-n-Artificial-83054a02d41e486a9c758431115bde89). [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-2)"
+excerpt: "Computer Vision course in the Ingeniería en Diseño de Entretenimiento Digital program, approaching technical learning through a design thinking perspective to foster innovative, user-centered visual computing solutions. [Course site](https://foil-bamboo-097.notion.site/Visi-n-Artificial-83054a02d41e486a9c758431115bde89). [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-2)"
 ---
 
 ## Course Description
