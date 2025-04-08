@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/2018-comp-vision-teaching-2
 venue: "Universidad Pontificia Bolivariana, School of Engineering"
-date: 2018-02-01
+date: 2024-02-01
 location: "Medellín, Colombia"
 excerpt: "Computer Vision undergraduate course at UPB. Program of Ingenieria en Diseño de Entretenimiento Digital. [Course site](https://foil-bamboo-097.notion.site/Visi-n-Artificial-83054a02d41e486a9c758431115bde89). [Read more](https://antonioescamilla.github.io/teaching/2018-comp-vision-teaching-2)"
 ---
