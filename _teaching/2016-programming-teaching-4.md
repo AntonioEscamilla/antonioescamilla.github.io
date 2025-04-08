@@ -4,7 +4,7 @@ collection: teaching
 type: "Postgraduate Course"
 permalink: /teaching/2016-programming-teaching-4
 venue: "ITM University, Faculty of Arts"
-date: 2016-02-01
+date: 2018-02-01
 excerpt: "The Creative Programming course will provide an introduction to programming and code in the context of the Digital Arts M.A. program at ITM. [Read more](https://antonioescamilla.github.io/teaching/2016-programming-teaching-4)"
 ---
 
