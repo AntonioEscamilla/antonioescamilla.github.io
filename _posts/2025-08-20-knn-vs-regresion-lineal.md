@@ -8,7 +8,7 @@ tags:
   - KNN
   - data science
   - python
-excerpt: 'Traducción literal al español del artículo sobre KNN vs. Linear Regression: How To Choose The Right ML Algorithm'
+excerpt: 'Artículo sobre diferencias en los dos modelos de regresión KNN y Regresión Lineal'
 ---
 
 Si estás adentrándote en el mundo del aprendizaje automático, probablemente te hayas encontrado con términos como **Regresión Lineal** y **K-Nearest Neighbors (KNN)**. Estos son algoritmos fundamentales que sirven como bloques de construcción para modelos más complejos. Comprender cómo funcionan y cuándo usarlos es crucial para cualquiera que desee profundizar en ciencia de datos.
@@ -44,8 +44,6 @@ En esencia, la Regresión Lineal es un método para modelar la relación entre u
 1. **Suposición de linealidad:** La regresión lineal asume una relación de línea recta entre la variable dependiente y las variables independientes. Sin embargo, los datos del mundo real a menudo tienen patrones más complejos y no lineales. Cuando la relación real no es lineal, usar regresión lineal puede conducir a predicciones inexactas o resultados engañosos. En tales casos, otros modelos, como la regresión polinómica o los árboles de decisión, pueden proporcionar mejores ajustes.
 
 2. **Sensibilidad a valores atípicos:** La regresión lineal es particularmente sensible a los outliers, que son valores extremos que difieren significativamente del resto. Debido a que el modelo intenta ajustar una línea que minimice el error global, un solo outlier puede arrastrar la línea hacia él, distorsionando potencialmente la relación. Esto puede resultar en un modelo inexacto que no represente bien a la mayoría de los datos. Métodos como la regresión robusta o eliminar outliers pueden ayudar a reducir este problema.
-
-Si quieres aprender más detalles sobre la Regresión Lineal puedes leer los siguientes artículos: *Deep Understanding Linear Regression* y *Deep Dive Multiple Linear Regression*.
 
 ## ¿Qué es la Regresión K-Nearest Neighbors?
 
