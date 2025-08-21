@@ -11,12 +11,12 @@ tags:
 excerpt: 'Una guía completa sobre visión por computadora: qué es, cómo funciona, sus aplicaciones y los desafíos que enfrenta esta fascinante área de la inteligencia artificial'
 ---
 
-Uno de los campos más avanzados y fascinantes de la inteligencia artificial es la visión por computadora, que casi seguramente has experimentado de muchas maneras sin saberlo. Aquí tienes una mirada a lo que es, cómo funciona y por qué es tan impresionante.
-
 <div style="text-align: center;">
   <img src="/images/posts/segmentation.jpg" alt="Segmentación de imagen" />
   <p><em>Ejemplo de segmentación de imagen en visión por computadora</em></p>
 </div>
+
+Uno de los campos más avanzados y fascinantes de la inteligencia artificial es la visión por computadora, que casi seguramente has experimentado de muchas maneras sin saberlo. Aquí tienes una mirada a lo que es, cómo funciona y por qué es tan impresionante.
 
 La visión por computadora es el campo de la informática que se centra en replicar partes de la complejidad del sistema de visión humano y permitir que las computadoras identifiquen y procesen objetos en imágenes y videos de la misma manera que lo hacen los humanos. Hasta hace poco, la visión por computadora solo funcionaba con capacidad limitada.
 
