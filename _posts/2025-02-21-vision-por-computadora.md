@@ -1,7 +1,7 @@
 ---
 title: 'Todo lo que siempre quisiste saber sobre la visión por computadora'
-date: 2025-08-21
-permalink: /posts/2025/08/vision-por-computadora/
+date: 2025-02-21
+permalink: /posts/2025/02/vision-por-computadora/
 tags:
   - computer vision
   - deep learning
