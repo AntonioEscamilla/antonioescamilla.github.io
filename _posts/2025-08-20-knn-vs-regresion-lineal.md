@@ -18,6 +18,11 @@ En este artículo, exploraremos la Regresión Lineal y la Regresión K-Nearest N
 ![Regresión Lineal vs KNN](/images/posts/regresion_knn_vs_lineal.png)
 *Ajuste de Regresión Lineal vs. Ajuste de Regresión KNN*
 
+<div style="text-align: center;">
+  <img src="/images/posts/regresion_knn_vs_lineal.png" alt="Regresión Lineal vs KNN" />
+  <p><em>Ajuste de Regresión Lineal vs. Ajuste de Regresión KNN</em></p>
+</div>
+
 ## ¿Qué es la Regresión Lineal?
 
 En esencia, la Regresión Lineal es un método para modelar la relación entre una *variable dependiente* (lo que intentas predecir) y una o más *variables independientes* (las características que usas para predecir). Asume que esta relación es lineal — es decir, puede representarse con una línea recta. Por ejemplo, estás tratando de predecir la estatura de alguien en función de su edad. Si trazas la edad en el eje x y la estatura en el eje y, la Regresión Lineal intenta encontrar la línea recta que mejor se ajusta a tus puntos de datos.
