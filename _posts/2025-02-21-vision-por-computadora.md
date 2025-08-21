@@ -25,7 +25,7 @@ Gracias a los avances en inteligencia artificial y las innovaciones en aprendiza
 Uno de los factores impulsores detrás del crecimiento de la visión por computadora es la cantidad de datos que generamos hoy en día que luego se utilizan para entrenar y mejorar la visión por computadora.
 
 <div style="text-align: center;">
-  <img src="/images/posts/computer-vision.png" alt="Visión por computadora" />
+  <img src="/images/posts/Computer-Vision.png" alt="Visión por computadora" />
   <p><em>Esquema general del funcionamiento de la visión por computadora</em></p>
 </div>
 
@@ -50,7 +50,7 @@ Por ejemplo, si alimentas a una computadora con un millón de imágenes de gatos
 Dejemos a nuestros amigos felinos esponjosos por un momento a un lado y pongámonos más técnicos 🤔😹. A continuación, se muestra una ilustración simple del búfer de imagen en escala de grises que almacena nuestra imagen de Abraham Lincoln. El brillo de cada píxel está representado por un solo número de 8 bits, cuyo rango va de 0 (negro) a 255 (blanco):
 
 <div style="text-align: center;">
-  <img src="/images/posts/pixel-portada.png" alt="Representación de píxeles" />
+  <img src="/images/posts/pixel_portada.png" alt="Representación de píxeles" />
   <p><em>Representación digital de una imagen en píxeles</em></p>
 </div>
 
@@ -139,7 +139,7 @@ Inventar una máquina que vea como nosotros es una tarea engañosamente difícil
 Estudiar la visión biológica requiere una comprensión de los órganos de percepción como los ojos, así como la interpretación de la percepción dentro del cerebro. Se ha logrado mucho progreso, tanto en el mapeo del proceso como en términos de descubrir los trucos y atajos utilizados por el sistema, aunque como cualquier estudio que involucre al cerebro, hay un largo camino por recorrer.
 
 <div style="text-align: center;">
-  <img src="/images/posts/tasks-cv.png" alt="Tareas de visión por computadora" />
+  <img src="/images/posts/tasks_cv.png" alt="Tareas de visión por computadora" />
   <p><em>Principales tareas en visión por computadora</em></p>
 </div>
 
