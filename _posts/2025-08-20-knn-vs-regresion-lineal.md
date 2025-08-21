@@ -15,9 +15,6 @@ Si estás adentrándote en el mundo del aprendizaje automático, probablemente t
 
 En este artículo, exploraremos la Regresión Lineal y la Regresión K-Nearest Neighbors de una manera amigable para principiantes. Desglosaremos términos complejos en un lenguaje sencillo, proporcionaremos explicaciones intuitivas y revisaremos ejemplos de código en Python para consolidar tu comprensión.
 
-![Regresión Lineal vs KNN](/images/posts/regresion_knn_vs_lineal.png)
-*Ajuste de Regresión Lineal vs. Ajuste de Regresión KNN*
-
 <div style="text-align: center;">
   <img src="/images/posts/regresion_knn_vs_lineal.png" alt="Regresión Lineal vs KNN" />
   <p><em>Ajuste de Regresión Lineal vs. Ajuste de Regresión KNN</em></p>
@@ -195,17 +192,25 @@ for num in num_neighbors:
     plt.show()
 ```
 
-![Ajuste de Regresión Lineal](/images/posts/out1.png)
-*Ajuste de Regresión Lineal*
+<div style="text-align: center;">
+  <img src="/images/posts/out1.png" alt="Ajuste de Regresión Lineal" />
+  <p><em>Ajuste de Regresión Lineal</em></p>
+</div>
 
-![Ajuste de Regresión KNN con K=3](/images/posts/out2.png)
-*Ajuste de Regresión KNN con K = 3*
+<div style="text-align: center;">
+  <img src="/images/posts/out2.png" alt="Ajuste de Regresión KNN con K=3" />
+  <p><em>Ajuste de Regresión KNN con K = 3</em></p>
+</div>
 
-![Ajuste de Regresión KNN con K=9](/images/posts/out3.png)
-*Ajuste de Regresión KNN con K = 9*
+<div style="text-align: center;">
+  <img src="/images/posts/out3.png" alt="Ajuste de Regresión KNN con K=9" />
+  <p><em>Ajuste de Regresión KNN con K = 9</em></p>
+</div>
 
-![Ajuste de Regresión KNN con K=15](/images/posts/out4.png)
-*Ajuste de Regresión KNN con K = 15*
+<div style="text-align: center;">
+  <img src="/images/posts/out4.png" alt="Ajuste de Regresión KNN con K=15" />
+  <p><em>Ajuste de Regresión KNN con K = 15</em></p>
+</div>
 
 ### Resultados de los ajustes
 
