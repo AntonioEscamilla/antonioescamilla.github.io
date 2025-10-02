@@ -86,7 +86,7 @@ Para ilustrar cómo funciona LIME en la práctica, consideremos el clasificador 
 - BMI moderado (27-32): -0.01
 
 <div style="text-align: center;">
-  <img src="/images/posts/LIME_explanation_for_the_8th_instance_from_test_dataset.png" alt="explanation_for_the_8th_instance" />
+  <img src="/images/posts/LIME_explanation_for_the_8th_instance_from_test_dataset.avif" alt="explanation_for_the_8th_instance" />
   <p><em>Explicación de la instancia número 8</em></p>
 </div>
 
@@ -149,7 +149,7 @@ Para entender mejor SHAP, analicemos algunas gráficas que se obtienen del model
 #### 2.1.1 Variable Importance Plot - Global Interpretation
 
 <div style="text-align: center;">
-  <img src="/images/posts/Summary_Plot_showing_Important_Variables.png" alt="Summary Plot" />
+  <img src="/images/posts/Summary_Plot_showing_Important_Variables.avif" alt="Summary Plot" />
   <p><em>Summary Plot mostrando Atributos Importantes</em></p>
 </div>
 
@@ -176,7 +176,7 @@ Los valores SHAP nos dicen que, en promedio absoluto:
 #### 2.1.2 Summary Plot - Análisis detallado
 
 <div style="text-align: center;">
-  <img src="/images/posts/Summary_Plot_deep_dive_on_label_1.png" alt="Summary Plot on Label 1" />
+  <img src="/images/posts/Summary_Plot_deep_dive_on_label_1.avif" alt="Summary Plot on Label 1" />
   <p><em>Summary Plot para el Label 1</em></p>
 </div>
 
@@ -205,7 +205,7 @@ Esta visualización nos muestra cada observación individual del dataset. Record
 #### 2.1.3 Dependence Plot de Age
 
 <div style="text-align: center;">
-  <img src="/images/posts/Dependence_plot_for_Age_attribute.png" alt="Dependence Plot for Age" />
+  <img src="/images/posts/Dependence_plot_for_Age_attribute.avif" alt="Dependence Plot for Age" />
   <p><em>Dependence Plot para Atributo Age</em></p>
 </div>
 
