@@ -1,7 +1,7 @@
 ---
 title: 'Mitigación del Sesgo en IA: Adversarial Learning, Meta-Fair Classifier y Exponentiated Gradient Reduction'
-date: 2025-11-13
-permalink: /posts/2025/11/mitigacion-sesgo-fairness-algoritmico/
+date: 2026-05-14
+permalink: /posts/2026/05/mitigacion-sesgo-fairness-algoritmico/
 tags:
   - machine learning
   - fairness
