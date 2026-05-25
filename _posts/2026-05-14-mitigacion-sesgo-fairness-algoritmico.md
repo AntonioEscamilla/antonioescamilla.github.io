@@ -122,6 +122,214 @@ EO exige que entre quienes sí reúnen las condiciones —quienes efectivamente 
 
 La elección entre SP y EO no es solo técnica: es una decisión normativa que debe tomarse en función del dominio de aplicación y del marco regulatorio vigente. El Meta-Fair Classifier tiene la ventaja de poder satisfacer ambas bajo el mismo modelo simplemente variando `τ` y la definición objetivo.
 
+El siguiente widget permite explorar cómo varía el comportamiento del modelo al ajustar τ: qué ocurre con la precisión, con la brecha entre grupos y con las tasas de aprobación a lo largo del rango [0, 1].
+
+<div class="tau-widget-wrap">
+
+<style>
+  .tau-widget-wrap {
+    margin: 2rem 0;
+    font-family: 'DM Sans', sans-serif;
+    --tau-bg:           #faf9f7;
+    --tau-surface:      #ffffff;
+    --tau-border:       #e8e5e0;
+    --tau-border-h:     #c8c4bc;
+    --tau-text-1:       #1a1917;
+    --tau-text-2:       #5c5a56;
+    --tau-text-3:       #9c9994;
+    --tau-radius-md:    10px;
+    --tau-radius-lg:    14px;
+  }
+  .tau-widget-wrap * { box-sizing: border-box; margin: 0; padding: 0; }
+  .tau-card-outer {
+    background: var(--tau-surface);
+    border: 1px solid var(--tau-border);
+    border-radius: var(--tau-radius-lg);
+    padding: 1.75rem;
+    max-width: 760px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+  }
+  .tau-header-label {
+    font-size: 10px; font-weight: 500; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--tau-text-3);
+    display: block; margin-bottom: 5px;
+  }
+  .tau-header-title {
+    font-size: 16px; font-weight: 500; color: var(--tau-text-1);
+    display: block; margin-bottom: 1.25rem;
+  }
+  .tau-slider-row {
+    display: flex; align-items: center; gap: 14px; margin-bottom: 1.25rem;
+  }
+  .tau-slider-edge {
+    font-size: 11px; color: var(--tau-text-3); white-space: nowrap; flex-shrink: 0;
+  }
+  .tau-slider-row input[type=range] {
+    flex: 1; height: 4px; border-radius: 2px; cursor: pointer;
+    accent-color: #534AB7;
+  }
+  .tau-val-badge {
+    font-size: 16px; font-weight: 500; font-family: 'DM Mono', monospace;
+    color: #534AB7; min-width: 42px; text-align: right; flex-shrink: 0;
+  }
+  .tau-metrics {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 1.25rem;
+  }
+  .tau-metric {
+    background: var(--tau-bg);
+    border: 1px solid var(--tau-border);
+    border-radius: var(--tau-radius-md);
+    padding: 12px 14px;
+  }
+  .tau-metric-label {
+    font-size: 10px; font-weight: 500; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--tau-text-3);
+    display: block; margin-bottom: 5px;
+  }
+  .tau-metric-value {
+    font-size: 20px; font-weight: 500; font-family: 'DM Mono', monospace;
+    color: var(--tau-text-1);
+  }
+  .tau-metric-unit { font-size: 12px; font-weight: 400; color: var(--tau-text-2); }
+  .tau-bars { margin-bottom: 1.25rem; }
+  .tau-legend-row {
+    display: flex; gap: 14px; margin-bottom: 10px;
+  }
+  .tau-legend-item {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 11px; color: var(--tau-text-2);
+  }
+  .tau-legend-dot {
+    width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0;
+  }
+  .tau-bar-row {
+    display: flex; align-items: center; gap: 10px; margin-bottom: 7px;
+  }
+  .tau-bar-name {
+    font-size: 11px; color: var(--tau-text-2); width: 100px; flex-shrink: 0;
+  }
+  .tau-bar-track {
+    flex: 1; height: 6px; background: var(--tau-border);
+    border-radius: 3px; overflow: hidden;
+  }
+  .tau-bar-fill {
+    height: 100%; border-radius: 3px;
+    transition: width 0.35s cubic-bezier(.4,0,.2,1);
+  }
+  .tau-bar-pct {
+    font-size: 11px; font-family: 'DM Mono', monospace;
+    color: var(--tau-text-2); width: 36px; text-align: right; flex-shrink: 0;
+  }
+  .tau-interp-box {
+    background: var(--tau-bg);
+    border: 1px solid var(--tau-border);
+    border-radius: var(--tau-radius-md);
+    padding: 12px 14px;
+    font-size: 12px; line-height: 1.65; color: var(--tau-text-2);
+  }
+  .tau-interp-box strong { color: var(--tau-text-1); font-weight: 500; }
+</style>
+
+<div class="tau-card-outer">
+  <span class="tau-header-label">Meta-Fair Classifier · Parámetro τ</span>
+  <span class="tau-header-title">Trade-off entre precisión y equidad</span>
+
+  <div class="tau-slider-row">
+    <span class="tau-slider-edge">τ = 0<br>solo precisión</span>
+    <input type="range" id="tau-sl" min="0" max="100" value="50" step="1">
+    <span class="tau-slider-edge">τ = 1<br>equidad perfecta</span>
+    <span class="tau-val-badge" id="tau-vb">0.50</span>
+  </div>
+
+  <div class="tau-metrics">
+    <div class="tau-metric">
+      <span class="tau-metric-label">τ actual</span>
+      <span class="tau-metric-value" id="tm-tau">0.50</span>
+    </div>
+    <div class="tau-metric">
+      <span class="tau-metric-label">Precisión del modelo</span>
+      <span class="tau-metric-value" id="tm-acc">82<span class="tau-metric-unit">%</span></span>
+    </div>
+    <div class="tau-metric">
+      <span class="tau-metric-label">Brecha de equidad</span>
+      <span class="tau-metric-value" id="tm-gap">9<span class="tau-metric-unit"> pp</span></span>
+    </div>
+  </div>
+
+  <div class="tau-bars">
+    <div class="tau-legend-row">
+      <div class="tau-legend-item">
+        <div class="tau-legend-dot" style="background:#534AB7"></div>
+        <span>Grupo A</span>
+      </div>
+      <div class="tau-legend-item">
+        <div class="tau-legend-dot" style="background:#0F6E56"></div>
+        <span>Grupo B</span>
+      </div>
+    </div>
+    <div class="tau-bar-row">
+      <span class="tau-bar-name">Tasa aprob. A</span>
+      <div class="tau-bar-track"><div class="tau-bar-fill" id="tb-a" style="background:#534AB7;width:62%"></div></div>
+      <span class="tau-bar-pct" id="tp-a">62%</span>
+    </div>
+    <div class="tau-bar-row">
+      <span class="tau-bar-name">Tasa aprob. B</span>
+      <div class="tau-bar-track"><div class="tau-bar-fill" id="tb-b" style="background:#0F6E56;width:53%"></div></div>
+      <span class="tau-bar-pct" id="tp-b">53%</span>
+    </div>
+    <div class="tau-bar-row">
+      <span class="tau-bar-name">Precisión global</span>
+      <div class="tau-bar-track"><div class="tau-bar-fill" id="tb-acc" style="background:#888780;width:82%"></div></div>
+      <span class="tau-bar-pct" id="tp-acc">82%</span>
+    </div>
+  </div>
+
+  <div class="tau-interp-box" id="tau-interp"></div>
+</div>
+
+<script>
+(function() {
+  var interpretations = [
+    { max: 0.15, text: "<strong>τ ≈ 0 — máxima precisión, equidad ignorada.</strong> El modelo optimiza solo su tasa de acierto. La brecha entre grupos refleja los patrones históricos en los datos, sin ninguna corrección." },
+    { max: 0.40, text: "<strong>τ bajo — equidad como consideración secundaria.</strong> El modelo comienza a reducir la brecha entre grupos, pero la precisión sigue siendo la prioridad dominante. Apropiado cuando las consecuencias del error son más costosas que la inequidad residual." },
+    { max: 0.65, text: "<strong>τ moderado — balance entre precisión y equidad.</strong> El modelo redistribuye las tasas de aprobación entre grupos, acercándolas. Se pierde algo de precisión, pero la brecha se reduce significativamente. Punto de equilibrio típico en decisiones de crédito o contratación." },
+    { max: 0.85, text: "<strong>τ alto — equidad como prioridad principal.</strong> Las tasas de aprobación entre grupos convergen. La precisión cae de forma más pronunciada. Relevante cuando el marco regulatorio exige paridad estadística demostrable." },
+    { max: 1.01, text: "<strong>τ ≈ 1 — equidad perfecta impuesta.</strong> Las tasas de aprobación entre grupos son iguales. La precisión alcanza su mínimo: el modelo ha sacrificado poder predictivo para eliminar la brecha. En la práctica, rara vez se usa τ = 1 porque implica ignorar información legítimamente predictiva." }
+  ];
+
+  function update() {
+    var tau = document.getElementById('tau-sl').value / 100;
+    var acc  = Math.round(88 - tau * 10);
+    var rA   = Math.round(62 + tau * 8);
+    var rB   = Math.round(53 + tau * 17);
+    var gap  = Math.abs(rA - rB);
+
+    document.getElementById('tau-vb').textContent  = tau.toFixed(2);
+    document.getElementById('tm-tau').textContent  = tau.toFixed(2);
+    document.getElementById('tm-acc').innerHTML    = acc  + '<span class="tau-metric-unit">%</span>';
+    document.getElementById('tm-gap').innerHTML    = gap  + '<span class="tau-metric-unit"> pp</span>';
+
+    document.getElementById('tb-a').style.width   = rA  + '%';
+    document.getElementById('tb-b').style.width   = rB  + '%';
+    document.getElementById('tb-acc').style.width = acc + '%';
+    document.getElementById('tp-a').textContent   = rA  + '%';
+    document.getElementById('tp-b').textContent   = rB  + '%';
+    document.getElementById('tp-acc').textContent = acc + '%';
+
+    var msg = interpretations[interpretations.length - 1].text;
+    for (var i = 0; i < interpretations.length; i++) {
+      if (tau <= interpretations[i].max) { msg = interpretations[i].text; break; }
+    }
+    document.getElementById('tau-interp').innerHTML = msg;
+  }
+
+  document.getElementById('tau-sl').addEventListener('input', update);
+  update();
+})();
+</script>
+
+</div>
+
 ### 2.4 Fortalezas y limitaciones
 
 La fortaleza distintiva de este método es su **flexibilidad operativa**: un único modelo puede servir a distintos requerimientos de equidad sin reentrenamiento, lo que lo hace especialmente valioso en entornos regulatorios donde los criterios pueden cambiar o donde distintos mercados exigen distintos estándares. Su limitación principal es que la definición de equidad a aplicar —SP, EO u otra— debe elegirse antes del entrenamiento, ya que el modelo aprende a generalizar dentro de esa familia de criterios. No puede, en principio, satisfacer simultáneamente definiciones de equidad que sean matemáticamente incompatibles entre sí, lo cual es un resultado conocido en la literatura de *fairness*.
