@@ -1,5 +1,5 @@
 ---
-title: 'Mitigación del Sesgo en IA: Adversarial Learning, Meta-Fair Classifier y Exponentiated Gradient Reduction'
+title: 'Mitigación del Sesgo en IA: Adversarial Learning, Meta-Fair Classifier, Exponentiated Gradient Reduction y Prejudice Remover'
 date: 2026-05-14
 permalink: /posts/2026/05/mitigacion-sesgo-fairness-algoritmico/
 tags:
@@ -9,7 +9,7 @@ tags:
   - ética en IA
   - regulación IA
   - in-processing
-excerpt: 'Una guía sobre técnicas de mitigación del sesgo algorítmico: Adversarial Learning, Meta-Fair Classifier y Exponentiated Gradient Reduction, con énfasis en su intuición y fundamentos técnicos.'
+excerpt: 'Una guía sobre técnicas de mitigación del sesgo algorítmico: Adversarial Learning, Meta-Fair Classifier, Exponentiated Gradient Reduction y Prejudice Remover, con énfasis en su intuición y fundamentos técnicos.'
 ---
 
 **El sesgo en los sistemas de inteligencia artificial no es un accidente: es un síntoma**
@@ -32,7 +32,7 @@ La ventaja de este enfoque es su independencia del modelo: cualquier clasificado
 
 Las técnicas de in-procesamiento modifican el proceso de aprendizaje en sí mismo, incorporando la equidad como un objetivo adicional que el modelo debe satisfacer mientras minimiza su error de predicción. Este paradigma reconoce que la equidad y la precisión son objetivos que pueden estar en tensión, y propone mecanismos formales para gestionarla.
 
-Es el paradigma más técnicamente rico y el que ofrece mayores garantías de alineación entre el comportamiento del modelo y los criterios de equidad definidos. Las tres técnicas que aborda esta entrada —**Adversarial Learning**, **Meta-Fair Classifier** y **Exponentiated Gradient Reduction**— pertenecen a esta categoría.
+Es el paradigma más técnicamente rico y el que ofrece mayores garantías de alineación entre el comportamiento del modelo y los criterios de equidad definidos. Las cuatro técnicas que aborda esta entrada —**Adversarial Learning**, **Meta-Fair Classifier**, **Exponentiated Gradient Reduction** y **Prejudice Remover**— pertenecen a esta categoría.
 
 ### Post-processing: corregir las predicciones ya producidas
 
@@ -386,15 +386,51 @@ Su limitación principal es que las restricciones de equidad deben poder expresa
 
 ---
 
+## 4. Prejudice Remover: cuando la penalización viaja dentro del modelo
+
+### 4.1 La intuición: aprender con conciencia del prejuicio propio
+
+Las tres técnicas anteriores intervienen el entrenamiento de formas distintas: una enfrenta dos modelos, otra parametriza la equidad como entrada, la tercera convierte el problema en una secuencia de clasificaciones. Prejudice Remover toma un camino más directo: le añade al clasificador una conciencia interna de su propio prejuicio, y lo obliga a reducirlo mientras aprende.
+
+La analogía más cercana es la de un estudiante que prepara un examen con dos criterios simultáneos: responder correctamente las preguntas *y* hacerlo sin apoyarse en información que no debería usar. Un evaluador externo no le dice cuándo está usando esa información prohibida — la restricción viaja con él durante todo el estudio. Eso es exactamente lo que hace Prejudice Remover: incorpora la restricción de equidad en el propio proceso de optimización del modelo, no como un agente externo que vigila, sino como una parte integral de lo que el modelo aprende a minimizar.
+
+### 4.2 El mecanismo: un término extra en la función de pérdida
+
+Cuando un clasificador estándar aprende a predecir si un paciente sobrevivirá, minimiza su error de clasificación — la pérdida logarítmica. Prejudice Remover le añade una segunda exigencia: evitar que sus predicciones dependan del atributo protegido. Esa exigencia se formaliza como el *prejudice index* (PI), un término que cuantifica cuánta dependencia existe entre las predicciones del modelo y el grupo sensible.
+
+El modelo entonces ya no minimiza solo la pérdida estándar, sino una combinación ponderada:
+
+$$L_{\text{total}} = L_{\text{log}}(\hat{y}, y) + \eta \cdot \text{PI}(\hat{y}, a)$$
+
+El parámetro η ≥ 0 es la palanca de control: con η = 0 el modelo es una regresión logística estándar, sin ninguna consideración de fairness; al aumentar η, el modelo aprende progresivamente a decorrelacionar sus predicciones del atributo sensible *a*. El PI vale cero cuando las predicciones son completamente independientes del grupo — el ideal de equidad — y crece a medida que esa independencia se rompe.
+
+### 4.3 La relación con las técnicas anteriores
+
+Prejudice Remover comparte con el Adversarial Learning la ambición de hacer que el modelo sea menos informativo sobre el atributo protegido, pero lo logra por un camino distinto: donde el adversarial necesita un segundo modelo que actúe como árbitro externo y cuya estabilidad no está garantizada, Prejudice Remover resuelve el problema con un único objetivo matemático. Esto lo hace más estable y predecible, aunque también menos expresivo: no puede capturar formas complejas de sesgo que un discriminador neuronal sí detectaría.
+
+Respecto al Meta-Fair Classifier, la diferencia es el momento de la decisión: τ se elige antes del entrenamiento y define qué modelo se aprende; η también se elige antes, pero su efecto es continuo y acumulativo a lo largo de todo el proceso de optimización. Y a diferencia del Exponentiated Gradient, que trabaja iterativamente reentrenando el clasificador base con pesos actualizados por grupo, Prejudice Remover interviene directamente en la función de pérdida, integrando la penalización por prejuicio como parte constitutiva del aprendizaje mismo.
+
+### 4.4 Fortalezas y limitaciones
+
+La fortaleza central de Prejudice Remover es su **simplicidad operativa**: opera sobre un único modelo diferenciable, sin arquitecturas duales ni iteraciones sobre familias de clasificadores. Este bajo costo computacional lo hace especialmente apropiado cuando se trabaja con datasets pequeños, donde los métodos más complejos resultan inestables o difíciles de calibrar. La función de pérdida extendida es legible, auditable, y conecta directamente con conceptos de regularización ya conocidos en otros contextos de machine learning.
+
+Su limitación principal es que la elección de η no es trivial: un valor demasiado alto degrada la precisión sin garantizar equidad perfecta, y no existe un criterio automático para encontrar el óptimo. A diferencia del Exponentiated Gradient, no ofrece garantías teóricas de convergencia hacia una solución con error de equidad acotado; el modelo puede alcanzar un mínimo local donde la pérdida total es baja pero el índice de prejuicio no ha convergido a cero.
+
+Está disponible en AIF360 como `aif360.algorithms.inprocessing.PrejudiceRemover`, lo que lo hace directamente integrable con el mismo pipeline que se usa para comparar las otras tres técnicas del curso.
+
+---
+
 ## Comparación y criterios de selección
 
-Las tres técnicas abordan el mismo problema desde ángulos distintos, y su elección debe guiarse por los requerimientos del contexto de aplicación.
+Las cuatro técnicas abordan el mismo problema desde ángulos distintos, y su elección debe guiarse por los requerimientos del contexto de aplicación.
 
 **Adversarial Learning** es el enfoque más flexible y expresivo, adecuado cuando se trabaja con datos no estructurados (texto, imágenes) o cuando la relación entre las variables predictoras y el atributo sensible es compleja y difícil de formalizar como restricción explícita. Su coste es la inestabilidad del entrenamiento y la ausencia de garantías formales.
 
 **Meta-Fair Classifier** es la opción más práctica cuando el modelo se despliega en entornos donde el criterio de equidad puede cambiar sin posibilidad de reentrenamiento, o donde distintos segmentos de usuarios o jurisdicciones demandan distintos estándares. El requerimiento es que la familia de criterios de equidad se elija antes del entrenamiento.
 
 **Exponentiated Gradient Reduction** es la elección más defensible desde una perspectiva regulatoria y de auditoría, gracias a sus garantías de convergencia y a la interpretabilidad de sus parámetros. Es particularmente adecuado cuando la equidad debe demostrarse formalmente ante terceros y cuando las restricciones de equidad pueden expresarse sobre tasas de error por grupo.
+
+**Prejudice Remover** ocupa un lugar propio en este mapa: es la opción más directa y computacionalmente ligera, diseñada para contextos donde la simplicidad del modelo es una restricción real. Al integrar la penalización de equidad como un término de regularización en la función de pérdida, evita la complejidad de arquitecturas duales o procesos iterativos, a cambio de renunciar a garantías de convergencia. Es la elección natural cuando el dataset es pequeño, los recursos son limitados, o cuando se busca un punto de partida auditable antes de escalar a métodos más sofisticados.
 
 En la práctica, estas técnicas no son excluyentes: pueden combinarse entre sí, o con estrategias de pre- y post-procesamiento, para construir pipelines de mitigación más robustos. La tendencia en sistemas de IA de alto riesgo es precisamente hacia este tipo de defensas en capas, donde ninguna técnica individual carga con toda la responsabilidad de garantizar la equidad del sistema.
 
@@ -463,11 +499,14 @@ El siguiente widget permite explorar de forma interactiva las características y
   }
   .fw-card-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin-bottom: 1.5rem;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 700px) {
+    .fw-card-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 420px) {
     .fw-card-grid { grid-template-columns: 1fr; }
     .fw-widget { width: 100%; padding: 1.25rem; }
   }
@@ -759,6 +798,33 @@ El siguiente widget permite explorar de forma interactiva las características y
         { name: "Garantía de convergencia",
           plain: "A diferencia del adversarial, hay prueba matemática de que el proceso siempre llega a una solución válida. No puede quedar atascado indefinidamente.",
           formula: "ε-equidad garantizada en O(1/ε²) iteraciones" }
+      ]
+    },
+    {
+      id: "pr",
+      name: "Prejudice Remover",
+      metaphor: "El estudiante consciente — aprende con la restricción integrada, no vigilada desde fuera.",
+      icon: "⚖️",
+      accentColor: "#7A3E96",
+      badgeBg: "#F3EAFB", badgeText: "#5A2A72", badgeLabel: "Regularización",
+      iconBg: "#F3EAFB", tagBg: "#F3EAFB", tagColor: "#5A2A72",
+      tags: ["Función de pérdida", "In-processing", "AIF360"],
+      dims: { complejidad: 40, flexibilidad: 55, interpretabilidad: 70 },
+      stage: "Durante el entrenamiento",
+      paradigm: "Regularización por prejuicio (Kamishima et al., 2012)",
+      strength: "Arquitectura simple y auditable; bajo costo computacional; ideal para datasets pequeños.",
+      weakness: "La elección de η no tiene criterio automático; sin garantías de convergencia de equidad.",
+      when: "Cuando el dataset es pequeño, los recursos son limitados, o se busca un punto de partida auditable.",
+      concepts: [
+        { name: "Prejudice Index (PI)",
+          plain: "Término que mide cuánta dependencia existe entre las predicciones del modelo y el atributo sensible. Cero significa independencia perfecta; crece cuando esa independencia se rompe.",
+          formula: "PI(ŷ, a) → 0  cuando ŷ ⊥ a  (predicciones independientes del grupo)" },
+        { name: "Función de pérdida extendida",
+          plain: "El modelo no solo minimiza su error de clasificación. Suma también el PI ponderado por η: una segunda exigencia que penaliza las predicciones sesgadas.",
+          formula: "L_total = L_log(ŷ, y) + η · PI(ŷ, a)" },
+        { name: "Parámetro η (palanca de equidad)",
+          plain: "Con η = 0 el modelo es logística estándar. Al aumentar η, el modelo aprende a decorrelacionar sus predicciones del grupo sensible, pagando algo de precisión.",
+          formula: "η = 0 → sin fairness   |   η → ∞ → equidad máxima" }
       ]
     }
   ];
