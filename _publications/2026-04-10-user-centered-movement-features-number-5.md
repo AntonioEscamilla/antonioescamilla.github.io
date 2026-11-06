@@ -1,0 +1,16 @@
+---
+title: "Exploring a user-centered approach for movement-based features in interaction design"
+collection: publications
+permalink: /publication/2026-04-10-user-centered-movement-features-number-5
+excerpt: 'Far beyond very fine-grained, accurate data, movement-based interaction design often benefits from working with higher-level features to create engaging interactions. Yet, movement-based frameworks most often focus on the detection strategy without providing clarity on how to use such data for the design of user interactions. This purely technical approach makes it challenging for practitioners to explore feature extraction technology as a design material. This paper presents an approach that considers designers’ perspectives and attitudes about using movement-based features to propose a set of designer-interpretable descriptors and enhance their ability to use human motion in interaction design. [Read more](https://antonioescamilla.github.io/publication/2026-04-10-user-centered-movement-features-number-5)'
+date: 2026-04-10
+venue: 'International Journal of Human-Computer Studies'
+paperurl: 'https://doi.org/10.1016/j.ijhcs.2026.103802'
+citation: 'Escamilla, A., Melenchón, J., Monzo, C., Morán, J. A., & Carrascal, J. P. (2026). &quot;Exploring a user-centered approach for movement-based features in interaction design.&quot; <i>International Journal of Human-Computer Studies</i>. 211, 103802.'
+---
+
+**Abstract:**
+
+Far beyond very fine-grained, accurate data, movement-based interaction design often benefits from working with higher-level features to create engaging interactions. Yet, movement-based frameworks most often focus on the detection strategy without providing clarity on how to use such data for the design of user interactions. This purely technical approach makes it challenging for practitioners to explore feature extraction technology as a design material. This paper presents an approach that considers designers’ perspectives and attitudes about using movement-based features to propose a set of designer-interpretable descriptors and enhance their ability to use human motion in interaction design. In addition, a computational prototype is utilized to visually present the features and help designers better understand movement content. The investigation into the effects of designer-interpretable features on the concept ideation and design of motion-based interactions followed a user-centered approach, and its validity was established through a qualitative study conducted with interaction designers. Semi-structured interviews following a creative practice exercise were employed to evaluate how the computational prototype influenced interaction designers’ processes, allowing them to reflect on their experience and compare it to previous approaches when designing movement-based interactions. The study determined that interaction designers were able to leverage features to identify detection capabilities and enrich the ideation process. Moreover, feature visualization provided further insights into the characteristics of movement, which helped practitioners understand the interaction opportunities that come with it.
+
+[Download paper here](https://antonioescamilla.github.io/files/A_Escamilla_2026_IJHCS_Movement-based_features_Interaction_Design.pdf)
